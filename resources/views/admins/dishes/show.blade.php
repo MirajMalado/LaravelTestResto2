@@ -34,11 +34,11 @@
                             <div class="modal-dialog modal-dialog-centered">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title" id="deletDishTitle">Delete <span class="text-primary">{{$dish->name}}</span></h5>
+                                  <h5 class="modal-title" id="deletDishTitle">Supprimer <span class="text-primary">{{$dish->name}}</span></h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                  <p>Are you sure, you want to delete this dish?</p>
+                                  <p>Etes-vous sure de vouloir supprimer ce chef?</p>
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -46,7 +46,7 @@
                                     @csrf
                                     @method("DELETE")
                                     <input type="hidden" name="id" value="{{$dish->id}}">
-                                    <button type="submit" class="btn btn-danger btn-icon">Confirm Delete</a>
+                                    <button type="submit" class="btn btn-danger btn-icon">Confirmer la suppression</a>
                                   </form>
                                 </div>
                               </div>

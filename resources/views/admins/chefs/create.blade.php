@@ -14,7 +14,7 @@
 <div class="col-md-6 grid-margin stretch-card">
     <div class="card">
     <div class="card-body">
-        <h4 class="card-title">Our new chef</h4>
+        <h4 class="card-title">Notre Chef</h4>
         <form class="forms-sample" method="POST" action="{{route("chef.store")}}" enctype="multipart/form-data">
             @if(Session::has('success'))
                 <div class="col-12 mb-2 alert-success rounded-3 p-2">
@@ -32,7 +32,7 @@
 
             @csrf
             <div class="form-group">
-                <label for="exampleInputUsername1">Name</label>
+                <label for="exampleInputUsername1">Nom du Chef</label>
                 <input type="text" class="form-control" id="exampleInputUsername1" name="name" value="{{old('name')?old('name'):''}}">
             </div>
             <div class="form-group">
@@ -41,9 +41,9 @@
             </div>
             <div class="custom-file mb-3">
                 <input type="file" class="custom-file-input" id="customFile" name="image">
-                <label class="custom-file-label" for="customFile">Choose file</label>
+                <label class="custom-file-label" for="customFile">Choisir un fichier</label>
             </div>
-            <button type="submit" class="btn btn-primary me-2">ADD</button>
+            <button type="submit" class="btn btn-primary me-2">Ajouter</button>
         </form>
     </div>
     </div>
