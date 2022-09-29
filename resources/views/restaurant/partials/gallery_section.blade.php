@@ -4,9 +4,8 @@
 <div id="portfolio">
     <div class="section-title text-center center">
         <div class="overlay">
-            <h2>Gallery</h2>
+            <h2>Images des Plats</h2>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
         </div>
     </div>
     <div class="container">

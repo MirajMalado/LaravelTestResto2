@@ -30,7 +30,7 @@
                 <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" name="password">
               </div>
               <div class="mt-3">
-                <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">SIGN IN</button>
+                <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">Se connecter</button>
               </div>
               <div class="my-2 d-flex justify-content-between align-items-center">
                 <a href="#" class="auth-link text-black">Forgot password?</a>

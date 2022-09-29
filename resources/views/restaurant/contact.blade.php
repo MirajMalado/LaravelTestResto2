@@ -1,9 +1,9 @@
-@extends('restaurant.layout')
+<!-- @extends('restaurant.layout')
 
 @section('page-body')
 
 <!-- Restaurant Menu Section -->
-<div id="restaurant-menu">
+<!-- <div id="restaurant-menu">
     <div class="section-title text-center center">
         <div class="overlay">
             <h2>Contact Us</h2>
@@ -12,6 +12,6 @@
         </div>
     </div>
 
-</div>
+</div> -->
 
-@endsection
+@endsection -->
