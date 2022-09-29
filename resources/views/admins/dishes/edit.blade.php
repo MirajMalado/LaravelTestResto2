@@ -33,7 +33,7 @@
             @method('PUT')
             <input type="hidden" name="id" value="{{$dish->id}}">
             <div class="form-group">
-                <label for="exampleInputUsername1">Name</label>
+                <label for="exampleInputUsername1">Nom du plat</label>
                 <input type="text" class="form-control" id="exampleInputUsername1" name="name" value="{{old('name')?old('name'):$dish->name}}">
             </div>
             <div class="form-group">
@@ -41,13 +41,13 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="description">{{old('description')?old('description'):$dish->description}}</textarea>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlNumber1">Price</label>
+                <label for="exampleFormControlNumber1">Prix</label>
                 <input type="number" class="form-control" id="exampleFormControlNumber1" name="price" value="{{old('price')?old('price'):$dish->price}}" step=".01">
             </div>
             <div class="form-group">
-                <label for="validationCustom04">Category</label>
+                <label for="validationCustom04">Categorie du plat</label>
                 <select class="custom-select" id="validationCustom04" name="category_id">
-                  <option selected disabled value="">Choose...</option>
+                  <option selected disabled value="">Choisir une image...</option>
                   @foreach ($categories as $category)
                     <option value="{{$category->id}}" 
                         @if(old('category_id'))
@@ -62,9 +62,9 @@
             </div>
             <div class="custom-file mb-3">
                 <input type="file" class="custom-file-input" id="customFile" name="image">
-                <label class="custom-file-label" for="customFile">Choose file</label>
+                <label class="custom-file-label" for="customFile">Choisir le fichier</label>
             </div>
-            <button type="submit" class="btn btn-primary me-2">EDIT</button>
+            <button type="submit" class="btn btn-primary me-2">Modifier</button>
         </form>
     </div>
     </div>

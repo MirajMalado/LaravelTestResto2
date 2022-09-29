@@ -14,7 +14,7 @@
 <div class="col-md-6 grid-margin stretch-card">
     <div class="card">
     <div class="card-body">
-        <h4 class="card-title">Our new categories</h4>
+        <h4 class="card-title">Les differents Categories</h4>
         <form class="forms-sample" method="POST" action="{{route('category.store')}}">
             @if(Session::has('success'))
                 <div class="col-12 mb-2 alert-success rounded-3 p-2">
@@ -32,10 +32,10 @@
 
             @csrf
             <div class="form-group">
-                <label for="exampleInputUsername1">Name</label>
+                <label for="exampleInputUsername1">Nom de Categorie</label>
                 <input type="text" class="form-control" id="exampleInputUsername1" name="name" value="{{old('name')?old('name'):''}}">
             </div>
-            <button type="submit" class="btn btn-primary me-2">ADD</button>
+            <button type="submit" class="btn btn-primary me-2">Ajouter</button>
         </form>
     </div>
     </div>

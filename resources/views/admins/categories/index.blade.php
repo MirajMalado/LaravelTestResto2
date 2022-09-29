@@ -13,7 +13,7 @@
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">Our main categories</h4>
+        <h4 class="card-title">Notre principale categorie</h4>
         @if(Session::has('success'))
             <div class="col-12 mb-2 alert-success rounded-3 p-2">
                 <p class="mb-0 lh-base">{{Session::get('success')}}</p>
@@ -33,7 +33,7 @@
             <thead>
               <tr>
                 <th>#</th>
-                <th>Category name</th>
+                <th>Nom du categorie</th>
                 <th>Actions</th>
               </tr>
             </thead>
@@ -56,19 +56,19 @@
                               <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title" id="deleteCategoryTitle{{$category->id}}">Delete <span class="text-primary">{{$category->name}}</span></h5>
+                                    <h5 class="modal-title" id="deleteCategoryTitle{{$category->id}}">Supprimer <span class="text-primary">{{$category->name}}</span></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
                                   <div class="modal-body">
                                     <p>Are you sure, you want to delete this category?</p>
                                   </div>
                                   <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     <form method="POST" action="{{route("category.delete")}}">
                                       @csrf
                                       @method("DELETE")
                                       <input type="hidden" name="id" value="{{$category->id}}">
-                                      <button type="submit" class="btn btn-danger btn-icon">Confirm Delete</a>
+                                      <button type="submit" class="btn btn-danger btn-icon">Confirmer suppression</a>
                                     </form>
                                   </div>
                                 </div>

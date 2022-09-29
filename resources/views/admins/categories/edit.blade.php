@@ -33,10 +33,10 @@
                 @method('PUT')
                 <input type="hidden" name="id" value="{{$category->id}}">
                 <div class="form-group">
-                    <label for="exampleInputUsername1">Name</label>
+                    <label for="exampleInputUsername1">Nom</label>
                     <input type="text" class="form-control" id="exampleInputUsername1" name="name" value="{{old('name')?old('name'):$category->name}}">
                 </div>
-                <button type="submit" class="btn btn-primary me-2">EDIT</button>
+                <button type="submit" class="btn btn-primary me-2">Modifier</button>
             </form>
         </div>
     </div>
