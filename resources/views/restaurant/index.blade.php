@@ -14,7 +14,7 @@
                     <div class="intro-text">
                         <h1>Miam Sertem</h1>
                         <p>Plateforme de restauration de Sertem Groupe</p>
-                        <a href="#menu" class="btn btn-custom btn-lg page-scroll">Discouvrer le Menu de la Semaine</a> </div>
+                        <a href="#menu" class="btn btn-custom btn-lg page-scroll">Decouvrer le Menu de la Semaine</a> </div>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Touché</title>
+    <title>Miam-Sertem</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -44,7 +44,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand page-scroll" href="{{route("restaurant.home")}}">Touché</a> </div>
+                <a class="navbar-brand page-scroll" href="{{route("restaurant.home")}}">Miam-Sertem</a> </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -52,7 +52,7 @@
                     <li><a href="{{route("restaurant.home")}}" class="page-scroll">Home</a></li>
                     <li><a href="{{route("restaurant.menu")}}" class="page-scroll">Menu</a></li>
                     <li><a href="{{route("restaurant.gallery")}}" class="page-scroll">Gallery</a></li>
-                    <li><a href="{{route("restaurant.chefs")}}" class="page-scroll">Chefs</a></li>
+                    <li><a href="{{route("restaurant.chefs")}}" class="page-scroll">Traiteurs</a></li>
                     <li><a href="{{route("restaurant.contact")}}" class="page-scroll">Contact</a></li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
     @yield('page-body')
 
     <!-- Contact Section -->
-    <div id="contact" class="text-center">
+    <!-- <div id="contact" class="text-center">
         <div class="container">
             <div class="section-title text-center">
                 <h2>Contact Form</h2>
@@ -108,30 +108,30 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div id="footer">
         <div class="container text-center">
             <div class="col-md-4">
-                <h3>Address</h3>
+                <h3>Addresse</h3>
                 <div class="contact-item">
-                    <p>4321 California St,</p>
-                    <p>San Francisco, CA 12345</p>
+                    <p>Dakar, route de la corniche,</p>
+                    <p<br>En face de l'ARTP</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <h3>Opening Hours</h3>
+                <h3>Horaires d'ouvertures</h3>
                 <div class="contact-item">
-                    <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-                    <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+                    <p>Du lundi au Vendredi</p>
+                    <p>De 13h30 a 14h30</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <h3>Contact Info</h3>
+                <h3>Contact</h3>
                 <div class="contact-item">
-                    <p>Phone: +1 123 456 1234</p>
-                    <p>Email: info@company.com</p>
+                    <p>Telephone: (+221) 33 869 77 67</p>
+                    <p>Email: info@sertemgroupe.com</p>
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@
                         <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
-                <p>&copy; 2016 Touché. All rights reserved. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+                <p>&copy; 2022 Miam-Sertem. Tout droits reserves. Designed by Simplon IT Service</a></p>
             </div>
         </div>
     </div>

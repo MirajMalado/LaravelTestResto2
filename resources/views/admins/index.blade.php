@@ -49,11 +49,13 @@
                   <p class="statistics-title">Subventions Mensuels</p>
                   <h3 class="rate-percentage">345000</h3>
                 </div>
-              </div>
-            </div>
+                                </div>
+                            </div>
+                        </div>
           </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-</div>
 @endsection

@@ -1,7 +1,7 @@
 @section('chefs')
 
 <!-- Team Section -->
-<div id="team" class="text-center">
+<!-- <div id="team" class="text-center">
     <div class="overlay">
         <div class="container">
             <div class="col-md-10 col-md-offset-1 section-title">
@@ -24,6 +24,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 @endsection
