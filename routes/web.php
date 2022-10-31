@@ -31,6 +31,10 @@ Route::get('/contact', [RestaurantController::class, 'contact'])->name('restaura
 /*============================== CONTACT Route ================================*/
 Route::post('/store', [ContactController::class, 'store'])->name('contact.store');
 
+/*============================== ADMIN Register Routes ================================*/
+
+Route::get('/admin/register', [AuthController::class, 'registerPage'])->name('register.store');
+Route::post('/admin/register', [AuthController::class, 'registerPage'])->name('register'); 
 
 /*============================== ADMIN Login Routes ================================*/
 Route::get('/admin/login', [AuthController::class, 'loginPage'])->name('login')->middleware('not-auth');

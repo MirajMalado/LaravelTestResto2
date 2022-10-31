@@ -16,7 +16,7 @@ class AuthController extends Controller
     }
 
     /*******************************************************************************************/
-/*
+
     public function index() {
         
     }
@@ -31,19 +31,21 @@ class AuthController extends Controller
         $request->validate([
             'name' => 'required|string|min:3|max:250',
             'email' => 'required|email:filter|max:250',
+            'matricule' => 'required|string|min:8|max:250',
             'password' => 'required|string|min:8|max:32'
         ]);
 
         $this->userModel->create([
             'name' => $request->name,
             'email' => $request->email,
+            'matricule' => $request->matricule,
             'password' => Hash::make($request->password)
         ]);
 
         session()->flash('success', 'Admin was added successfully');
         return redirect()->home();
     }
-*/
+
     /*******************************************************************************************/
 
     public function loginPage() {
